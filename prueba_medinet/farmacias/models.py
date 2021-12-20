@@ -13,7 +13,7 @@ class Farmacia(models.Model):
 
     local_nombre = models.CharField("Local Nombre",max_length=400)
 
-    comuna_nombre = models.CharField("Local Nombre",max_length=400)
+    comuna_nombre = models.CharField("Comuna Nombre",max_length=400)
 
     fk_localidad = models.IntegerField()
 
